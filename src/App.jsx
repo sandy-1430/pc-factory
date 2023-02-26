@@ -26,7 +26,7 @@ function App() {
       <CssBaseline />
       <div className="App">
         <Typography variant="h1" component="h2">
-          h1. Heading
+          h1. Chithra
         </Typography>
       </div>
     </ThemeProvider>

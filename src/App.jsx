@@ -2,7 +2,7 @@
 import './styles/base.scss';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { Typography } from '@mui/material';
+import Home from './pages/Home';
 
 
 const darkTheme = createTheme({
@@ -15,6 +15,7 @@ const darkTheme = createTheme({
   typography: {
     fontFamily: [
       'Lato',
+      'Audiowide',
       'sans-serif',
     ].join(','),
   },
@@ -25,9 +26,7 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <div className="App">
-        <Typography variant="h1" component="h2">
-          h1. Chithra
-        </Typography>
+        <Home />
       </div>
     </ThemeProvider>
   );
